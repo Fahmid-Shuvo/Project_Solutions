@@ -1,10 +1,10 @@
 from helpers import *
 
 def prims_algorithm(a_graph):
-    """This function is an implementation for prims algorithm.
+    """This function is an implementation for Prims algorithm.
     Given a weighted graph returns the minimum spanning tree,
-    ie a graph with the the least nodes required for all
-    the nodes to be connected and with the minimud distance."""
+    ie a graph with the the least edges required for all
+    the nodes to be connected and with the minimum distance."""
     starting_nodes = start_nodes(a_graph)
     visited_nodes = []
     min_span_tree = {}
